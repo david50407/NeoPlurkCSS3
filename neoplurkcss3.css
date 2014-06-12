@@ -1,17 +1,17 @@
 /****************************************************************************************/
 /* NeoPlurkCSS3由Howar31製作，								*/
+/* Plurk 新版(20140611)版型支援由 David Kuo 提供，    	*/
 /* 以創用CC 姓名標示-非商業性-相同方式分享 3.0 台灣 授權條款釋出。			*/
 /* Design by Howar31	http://about.me/howar31 					*/
+/* Patched by David Kuo < me @ davy.tw >                */
 /* License zhTW		http://creativecommons.org/licenses/by-nc-sa/3.0/tw/deed.zh_TW	*/
 /* License en		http://creativecommons.org/licenses/by-nc-sa/3.0/tw/deed.en	*/
-/* Latest Version	https://github.com/howar31/NeoPlurkCSS3				*/
+/* Latest Version	https://github.com/david50407/NeoPlurkCSS3				*/
 /****************************************************************************************/
 
-html {
+body {
 	overflow-x: hidden;
-}
-
-html, body {
+	overflow-y: hidden;
 	width: 100%;
 	height: 99%;
 	min-width: 650px; 
@@ -52,7 +52,7 @@ html, body {
 /* 河道 */
 /* 河道主框架 */
 #timeline_holder {
-	margin-top: 60px !important;
+	margin-top: 48px !important;
 	height: 80% !important;
 	min-height: 470px; 
 	background-image: none;
@@ -305,6 +305,11 @@ html, body {
 	text-shadow: 0px 0px 5px black;
 	font-size: 2.5em;
 }
+/* 未讀回應計數 */
+.new .response_count {
+	color: #FF0000 !important;
+	text-shadow: rgb(255, 255, 255) 0px 0px 5px !important;
+}
 .plurk_icon {
 	z-index: 860;
 }
@@ -327,13 +332,13 @@ html, body {
 .plurkaction.pane,
 #reply_box {
 	position: fixed !important;
-	top: 24px !important;
+	top: 32px !important;
 	left: 0px !important;
 	right: 0px !important;
 	z-index: 910 !important;
 	overflow: hidden !important;
 	border: none !important;
-	max-height: 40px;
+	max-height: 50px;
 	background: none !important;
 	color:black;
 	-webkit-transition: max-height 1.0s ease-out 0s;
@@ -399,7 +404,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 	z-index: 900;
 	position: fixed !important;
 	left: -120px;
-	top: 100px !important;
+	top: 120px !important;
 	height: auto;
 	width: 0px !important;
 	overflow: visible;
@@ -423,7 +428,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 .dash-segment:nth-child(1)
 {
 	position: relative !important;
-	width: 300px !important;
+	width: 320px !important;
 	left: -60px;
 	-webkit-transition: left 0.5s ease-out;
 	-moz-transition: left 0.5s ease-out;
@@ -433,7 +438,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 .dash-segment:nth-child(2)
 {
 	position: relative !important;
-	left: -25px;
+	left: -10px;
 	-webkit-transition: left 0.5s ease-out;
 	-moz-transition: left 0.5s ease-out;
 	-o-transition: left 0.5s ease-out;
@@ -494,7 +499,8 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 
 /* 個人簡介欄 */
 #dash-profile {
-	margin-left: 175px;
+	margin-left: 190px;
+	margin-top: 5px;
 	height: 230px;
 	-webkit-transition: height 0.5s ease-out 0.5s;
 	-moz-transition: height 0.5s ease-out 0.5s;
@@ -506,8 +512,8 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 }
 #dash-additional-info {
 	position: absolute;
-	top: 0px;
-	left: 10px;
+	top: 5px;
+	left: 20px;
 	width: 160px;
 }
 #relationship_container {
@@ -525,7 +531,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 
 /* 卡馬狀態欄 */
 #dash-stats {
-	height: 55px;
+	height: 70px;
 	-webkit-transition: height 0.5s ease-out 0.5s;
 	-moz-transition: height 0.5s ease-out 0.5s;
 	-o-transition: height 0.5s ease-out 0.5s;
@@ -628,18 +634,23 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 }
 
 /* 底部footer語言選擇版權宣告 */
+footer
+{
+	position: absolute;
+	width: 100%;
+	margin-top: 2em;
+}
 #footer
 {
-	width: auto !important;
-	position: fixed !important;
-	bottom: -52px;
-	right: 10px;
+	width: 100% !important;
+	position: relative !important;
+	bottom: -3em;
 	-webkit-transition: bottom 0.5s ease-out;
 	-moz-transition: bottom 0.5s ease-out;
 	-o-transition: bottom 0.5s ease-out;
 }
 #footer:hover {
-	bottom: -20px;
+	bottom: 1em;
 	-webkit-transition: bottom 0.5s ease-out 0.5s;
 	-moz-transition: bottom 0.5s ease-out 0.5s;
 	-o-transition: bottom 0.5s ease-out 0.5s;
@@ -814,4 +825,16 @@ body,
 	-moz-animation-iteration-count: 1;
 	-moz-animation-timing-function: ease-out;
 	-moz-animation-duration: 0.5s;
+}
+
+/* 擴充套件 */
+/* 擴充：隱藏粉絲欄 */
+.dash-segment-fans {
+	min-height: 1px;
+	max-height: 1px;
+}
+.dash-segment-fans .segment-content {
+	height: 1px;
+	box-shadow: none;
+	background: none;
 }
