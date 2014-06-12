@@ -828,6 +828,7 @@ body,
 
 /* 擴充套件 */
 /* 擴充：隱藏粉絲欄 */
+/*
 .dash-segment-fans {
 	min-height: 1px;
 	max-height: 1px;
@@ -837,3 +838,4 @@ body,
 	box-shadow: none;
 	background: none;
 }
+*/

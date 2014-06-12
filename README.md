@@ -7,7 +7,7 @@
 此版本由 David Kuo < me @ davy.tw > 維護，支援目前的 plurk layout，
 原版權由 Howar31 擁有，修改部分依然採用原授權方案釋出。
 
-[NeoPlurkCSS3 噗浪佈景主題 直接安裝網址](http://www.plurk.com/installDesign/7805915-27bd6a10ec "本噗浪佈景官方安裝連結")  
+[NeoPlurkCSS3 噗浪佈景主題 直接安裝網址](http://www.plurk.com/installDesign/7805915-c7eb918160 "本噗浪佈景官方安裝連結")  
 ![previewimg](http://i.imgur.com/eSIiBKg.png "佈景實際使用預覽")
 
 上一版的CSS，因為過了一年半，經過多次Plurk官方改版，有些語法已經不相容出問題了，因此重新改版
