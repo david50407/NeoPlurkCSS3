@@ -4,19 +4,16 @@
 /* License zhTW		http://creativecommons.org/licenses/by-nc-sa/3.0/tw/deed.zh_TW		*/
 /* License en		http://creativecommons.org/licenses/by-nc-sa/3.0/tw/deed.en		*/
 /* Version 20130312  Recommanded Resolution: 700x700+						*/
-/* Modified 20140205    Sntc06                                                                  */
+/* Modified 20140205    <sntc06@gmail.com>                                                                  */
+/* Patched by David Kuo < me @ davy.tw >    */
 /************************************************************************************************/
 
-html {
+body {
     overflow-x: hidden;
-}
-
-
-html, body {
     width: 100%;
     height: 99%;
-    min-width: 650px;
-    min-height: 650px;
+    min-width: 650px; 
+    min-height: 650px; 
 }
 
 /* 頂端bar */
@@ -53,7 +50,7 @@ html, body {
 /* 河道 */
 /* 河道主框架 */
 #timeline_holder {
-    margin-top: 60px !important;
+    margin-top: 48px !important;
     height: 80% !important;
     min-height: 470px;
     background-image: none;
@@ -312,8 +309,8 @@ html, body {
 
 /* 新未讀 sntc06 */
 .new .response_count {
-    color:			#EE0000		!important;
-    text-shadow:	0px 0px 5px white;
+    color: #EE0000 !important;
+    text-shadow: rgb(255, 255, 255) 0px 0px 5px !important;
 }
 
 .plurk_icon {
@@ -341,13 +338,13 @@ html, body {
 .plurkaction.pane,
 #reply_box {
     position: fixed !important;
-    top: 24px !important;
+    top: 32px !important;
     left: 0px !important;
     right: 0px !important;
     z-index: 910 !important;
     overflow: hidden !important;
     border: none !important;
-    max-height: 40px;
+    max-height: 50px;
 
     background: none !important;
     color:black;
@@ -415,7 +412,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
     z-index: 900;
     position: fixed !important;
     left: -120px;
-    top: 100px !important;
+    top: 120px !important;
     height: auto;
     width: 0px !important;
     overflow: visible;
@@ -439,7 +436,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 .dash-segment:nth-child(1)
 {
     position: relative !important;
-    width: 300px !important;
+    width: 320px !important;
     left: -60px;
     -webkit-transition: left 0.5s ease-out;
     -moz-transition: left 0.5s ease-out;
@@ -449,7 +446,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 .dash-segment:nth-child(2)
 {
     position: relative !important;
-    left: -25px;
+    left: -10px;
     -webkit-transition: left 0.5s ease-out;
     -moz-transition: left 0.5s ease-out;
     -o-transition: left 0.5s ease-out;
@@ -510,15 +507,13 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 
 /* 個人簡介欄 */
 #dash-profile {
-    position: absolute;
-    margin-left: 175px;
-    height: 230px !important;
+
+    margin-left: 190px;
+    margin-top: 5px;
+    height: 230px;
     -webkit-transition: height 0.5s ease-out 0.5s;
     -moz-transition: height 0.5s ease-out 0.5s;
     -o-transition: height 0.5s ease-out 0.5s;
-}
-.dash-segment-profile .segment-content{
-    height: 230px !important;
 }
 .profile-pic {
     height: 100px;
@@ -526,8 +521,8 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 }
 #dash-additional-info {
     position: absolute;
-    top: 0px;
-    left: 10px;
+    top: 5px;
+    left: 20px;
     width: 160px;
 }
 #relationship_container {
@@ -539,7 +534,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
     position: relative !important;
     top: -10px;
     left: 0px;
-    height: 90%			!important;
+    height: 90% !important;
     white-space: nowrap;
 }
 
@@ -651,16 +646,15 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 /* 底部footer語言選擇版權宣告 */
 #footer
 {
-    width: auto !important;
-    position: fixed !important;
-    bottom: -52px;
-    right: 10px;
+    width: 100% !important;
+    position: relative !important;
+    bottom: -3em;
     -webkit-transition: bottom 0.5s ease-out;
     -moz-transition: bottom 0.5s ease-out;
     -o-transition: bottom 0.5s ease-out;
 }
 #footer:hover {
-    bottom: -20px;
+    bottom: 1em;
     -webkit-transition: bottom 0.5s ease-out 0.5s;
     -moz-transition: bottom 0.5s ease-out 0.5s;
     -o-transition: bottom 0.5s ease-out 0.5s;
