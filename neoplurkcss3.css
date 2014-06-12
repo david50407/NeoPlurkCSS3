@@ -8,7 +8,7 @@
 /* Patched by David Kuo < me @ davy.tw >    */
 /************************************************************************************************/
 
-body {
+html, body {
     overflow-x: hidden;
     width: 100%;
     height: 99%;
@@ -62,7 +62,7 @@ body {
     background: -ms-linear-gradient(top, #EEEEEE 70%,#AAAAAA 100%); /* IE10+ */
     background: linear-gradient(to bottom, #EEEEEE 70%,#AAAAAA 100%); /* W3C */
 
-    background-image:  url("https://dl.dropboxusercontent.com/u/159564/wallpaper_321801936.jpg");
+    background-image: url("https://dl.dropboxusercontent.com/u/159564/wallpaper-477302.jpg");
     -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
     -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
@@ -75,7 +75,7 @@ body {
 #timeline_fg {
     height: 78% !important;
     min-height: 470px;
-    background-image:  url("https://dl.dropboxusercontent.com/u/159564/wallpaper_321801936.jpg"); /* 河道背景放這 */
+    background-image: url("https://dl.dropboxusercontent.com/u/159564/wallpaper-477302.jpg"); /* 河道背景放這 */
 }
 /* 噗能出現的範圍 */
 #timeline_cnt {
@@ -274,6 +274,11 @@ body {
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
+/* 發噗動詞 */
+.AmiMenu .qual_menu {
+    top: 20px !important;
+}
+
 /* 回文內容 */
 .plurk_box .plurk_cnt {
     -moz-box-shadow: none;
