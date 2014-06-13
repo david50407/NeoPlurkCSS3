@@ -367,6 +367,14 @@ body {
 textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 	border: 1px solid black;
 }
+/* 欺騙 Plurk 動詞座標算法 */
+.plurkaction.pane .qual_holder span:nth-child(2) {
+	background: url(https://statics.plurk.childom/b5013d83d670a7b88d13308929741d98.png) 100% 50% no-repeat;
+}
+.plurkaction.pane .qual_holder span:nth-child(2) .dd_img {
+	position: relative;
+	top: 18em;
+}
 /* 私噗設定面板 */
 #more_options_link {
 	background-image: none;
