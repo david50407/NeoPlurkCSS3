@@ -244,6 +244,7 @@ html, body {
 	top: 22px;
 	font-size: 1.1em;
 	z-index: 855;
+	margin-right: 1.5em;
 }
 .plurk_cnt .text_holder .name {
 	top: 0px;
