@@ -473,6 +473,10 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 	-moz-transition: left 0.5s ease-out;
 	-o-transition: left 0.5s ease-out;
 }
+/* 卡瑪分數位置修正 */
+.karma_hover #karma_holder {
+	margin-left: .5em;
+}
 /* 好友粉絲欄縮排 */
 .dash-segment:nth-child(3),
 .dash-segment:nth-child(4)
@@ -562,6 +566,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 /* 卡馬狀態欄 */
 #dash-stats {
 	height: 70px;
+	overflow: hidden;
 	-webkit-transition: height 0.5s ease-out 0.5s;
 	-moz-transition: height 0.5s ease-out 0.5s;
 	-o-transition: height 0.5s ease-out 0.5s;
