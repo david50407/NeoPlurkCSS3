@@ -1,9 +1,9 @@
 /************************************************************************************************/
-/* NeoPlurkCSS3由Howar31製作，以創用CC 姓名標示-非商業性-相同方式分享 3.0 台灣 授權條款釋出。	*/
-/* Design by Howar31	http://about.me/howar31 						*/
-/* License zhTW		http://creativecommons.org/licenses/by-nc-sa/3.0/tw/deed.zh_TW		*/
-/* License en		http://creativecommons.org/licenses/by-nc-sa/3.0/tw/deed.en		*/
-/* Version 20130312  Recommanded Resolution: 700x700+						*/
+/* NeoPlurkCSS3由Howar31製作，以創用CC 姓名標示-非商業性-相同方式分享 3.0 台灣 授權條款釋出。 */
+/* Design by Howar31    http://about.me/howar31                         */
+/* License zhTW     http://creativecommons.org/licenses/by-nc-sa/3.0/tw/deed.zh_TW      */
+/* License en       http://creativecommons.org/licenses/by-nc-sa/3.0/tw/deed.en     */
+/* Version 20130312  Recommanded Resolution: 700x700+                       */
 /* Modified 20140205    <sntc06@gmail.com>                                                                  */
 /* Patched by David Kuo < me @ davy.tw >    */
 /************************************************************************************************/
@@ -40,7 +40,7 @@ html, body {
     background: url("");
     background-size: 0px 0px;
     width: 0px !important;
-    height:	0px !important;
+    height: 0px !important;
     position: absolute !important;
     top: 0px !important;
     right: 0px !important;
@@ -73,7 +73,7 @@ html, body {
 /* 整體框架 */
 #timeline_bg,
 #timeline_fg {
-    height: 78% !important;
+    height: 74% !important;
     min-height: 470px;
     background-image: url("https://dl.dropboxusercontent.com/u/159564/wallpaper-477302.jpg"); /* 河道背景放這 */
 }
@@ -290,9 +290,9 @@ html, body {
     opacity: 1;
 }
 .plurk {
-    -moz-box-shadow:	none;
-    -webkit-box-shadow:	none;
-    box-shadow:			none;
+    -moz-box-shadow:    none;
+    -webkit-box-shadow: none;
+    box-shadow:         none;
 }
 /* 回文右邊的選項 */
 .response_time {
@@ -546,6 +546,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 /* 卡馬狀態欄 */
 #dash-stats {
     height: 55px;
+    overflow: hidden;
     -webkit-transition: height 0.5s ease-out 0.5s;
     -moz-transition: height 0.5s ease-out 0.5s;
     -o-transition: height 0.5s ease-out 0.5s;
@@ -585,7 +586,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 }
 /* 卡馬趨勢圖 */
 .karma_tooltip {
-    position: fixed	!important;
+    position: fixed !important;
     top: 350px !important;
     left: 260px !important;
 }
@@ -677,7 +678,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 /* 視窗標題 */
 .GB_Window .header {
     color: black !important;
-    border:	1px solid black	!important;
+    border: 1px solid black !important;
 }
 .GB_Window .close,
 .GB_Window .header td.caption {
@@ -693,7 +694,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
 }
 .GB_window .content {
-    border:	none !important;
+    border: none !important;
 }
 
 /* 噗浪單頁 */
