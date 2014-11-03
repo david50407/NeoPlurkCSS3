@@ -72,7 +72,7 @@ html, body {
 }
 /* 欺騙 Plurk 動詞座標算法 */
 .plurkaction.pane .qual_holder span:nth-child(2) {
-	background: url(https://statics.plurk.childom/b5013d83d670a7b88d13308929741d98.png) 100% 50% no-repeat;
+	background: url(http://s.plurk.com/b5013d83d670a7b88d13308929741d98.png) 100% 50% no-repeat;
 }
 .plurkaction.pane .qual_holder span:nth-child(2) .dd_img {
 	position: relative;
