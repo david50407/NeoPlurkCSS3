@@ -69,6 +69,15 @@ html, body {
     border-top: 1px solid black !important;
     border-bottom: 1px solid black !important;
 }
+/* 欺騙 Plurk 動詞座標算法 */
+.plurkaction.pane .qual_holder span:nth-child(2) {
+background: url(https://statics.plurk.childom/b5013d83d670a7b88d13308929741d98.png) 100% 50% no-repeat;
+}
+.plurkaction.pane .qual_holder span:nth-child(2) .dd_img {
+position: relative;
+top: 18em;
+}
+
 /* 河道 */
 /* 整體框架 */
 #timeline_bg,
