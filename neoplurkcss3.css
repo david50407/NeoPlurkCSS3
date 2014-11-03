@@ -554,7 +554,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 
 /* 卡馬狀態欄 */
 #dash-stats {
-    height: 55px;
+    height: 65px;
     overflow: hidden;
     -webkit-transition: height 0.5s ease-out 0.5s;
     -moz-transition: height 0.5s ease-out 0.5s;
@@ -706,56 +706,56 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
     border: none !important;
 }
 
+
 /* 噗浪單頁 */
 /* 噗浪單頁主題 */
 div.bigplurk h1.content {
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-topright: 5px;
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    -moz-box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.8);
-    -webkit-box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.8);
-    box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.8);
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+-moz-box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.8);
+-webkit-box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.8);
+box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.8);
 }
 div.bigplurk div.time {
-    -moz-border-radius-bottomleft: 5px;
-    -moz-border-radius-bottomright: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-    -webkit-border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    -moz-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.8);
-    -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.8);
-    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.8);
+-moz-border-radius-bottomleft: 5px;
+-moz-border-radius-bottomright: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+-moz-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.8);
+-webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.8);
+box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.8);
 }
-/* 噗浪單頁主題 */
 article.bigplurk.cboxAnchor {
-    position: relative !important;
-    top: -30px;
+position: relative !important;
+top: -30px;
 }
 /* 噗浪單頁導航 */
 #plurk_nav {
-    position: absolute !important;
-    top: 20px;
-    width: 98%;
+position: absolute !important;
+top: 20px;
+width: 98%;
 }
 #plurk_nav a {
-    color: black;
-    border: 1px solid #AAAAAA;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
-    -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
+color: black;
+border: 1px solid #AAAAAA;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
+-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
+box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
 }
 #plurk_nav a:hover {
-    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
-    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
-}
+-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+
 /* 回覆總框架 */
 #dashboard_holder {
     position: absolute !important;
